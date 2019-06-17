@@ -1,0 +1,868 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 885px;
+}
+
+/*autoshop-about*/
+.autoshop-about {
+    height: 105px;
+    background-color:  #ffdc00;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ride-information, 
+.left-information { 
+    padding-top: 20px;
+}
+
+.logo {
+    background-image: url(../img/logo.png);
+    height: 30px;
+    width: 182px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name-site {
+    color: #6f6f6f;
+}
+
+.phone {
+    padding-left: 95px;
+}
+
+.order-numder-text {
+    color: white;
+    
+}
+
+.order-number {
+    width: 198px;
+    height: 40px;
+    background-color: #333333;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/*information-videoregistration*/
+
+.information-videoregistration {
+    width: 100%;
+    height: 800px;
+}
+
+.parking-picture {
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/header-picture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-price {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 155px;
+    width: 1000px;
+/*    padding: 155px 0 0 530px;*/
+    margin: 0 auto;
+}
+
+.change-color-text {
+    color: yellow;
+}
+
+.new-goods {
+    font-size: 30px;
+    font-weight: bold;
+    width: 540px;
+    color: white;
+    line-height: 2;
+    letter-spacing: 0.7px;
+}
+
+.text-present {
+    width: 475px;
+    line-height: 2;
+    word-spacing: 0.7em;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+}
+
+.section-clock {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-top: 30px;
+    
+}
+
+.clock {
+    height: 72px;
+    width: 47px;
+    background-color: #333333;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.clock-time {
+    color: white;
+    font-size: 45px;
+}
+
+
+.clock-point {
+    width: 16px;
+    height: 16px;
+    background-color: #333333;
+    border-radius: 50%;
+}
+
+.point {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+.button-order {
+    width: 295px;
+    height: 73px;
+    background-color: #ffdc00;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 40px;
+    box-shadow: 3px 3px 0px 0px;
+    
+}
+
+.order-text {
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.view-videoregistration {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    width: 380px;
+}
+
+.picrure-videoregistration {
+    background-image: url(../img/header-videoreistrator.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 382px;
+    height: 150px;
+    margin-top: 50px;
+}
+
+.price {
+    background-image: url(../img/price.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+    margin-right: 40px;
+}
+
+.media-off1 {
+    display: none;
+}
+
+/*main*/
+
+/*description-videoregistraion*/
+
+.description-videoregistraion {
+    width: 100%;
+/*    height: 1125px;*/
+    
+}
+
+.menu {
+    font-size: 20px;
+    font-weight: bold;
+    word-spacing: 11px;
+    width: 445px;
+    margin: 55px auto;
+}
+
+.underline {
+    width: 279px;
+    height: 2px;
+    margin: 50px auto;
+    background-color: yellow;
+}
+
+.prescribe-row1 {
+    width: 1000px;
+    height: 310px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.prescribe1,
+.prescribe2,
+.prescribe3,
+.prescribe4,
+.prescribe5 {
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+
+.under-prescribe {
+    color: #a0a0a0;
+    margin-top: 21px;
+    font-style: italic;
+}
+
+.picture-prescribe1 {
+    background-image: url(../img/picture-prescribe1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 255px;
+}
+
+.underline1 {
+    height: 2px;
+    width: 50px;
+    background-color: yellow;
+    margin-left: 260px;
+}
+
+.prescribe-row2 {
+    width: 1000px;
+    height: 310px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.picture-prescribe2 {
+    background-image: url(../img/picture-prescribe2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 115px;
+    width: 355px;
+    margin-top: 75px;
+}
+
+.prescribe-row3 {
+    width: 1000px;
+    height: 275px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.picture-prescribe3 {
+    background-image: url(../img/picture-prescribe3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 332px;
+    height: 135px;
+    margin-top: 70px;
+}
+
+.under-prescribe1 {
+    color: #a0a0a0;
+    margin-top: 21px;
+    font-style: italic;
+    width: 445px;
+}
+
+.button-ord2 {
+    margin: 0 auto;
+    
+}
+
+/*reason-videoregistration*/
+
+.reason-videoregistration {
+  width: 100%;  
+    
+}
+
+.price-menu {
+    width: 530px;
+    margin: 75px auto;
+}
+
+.four-reason {
+    margin: 0 auto;
+    width: 945px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.section1 {
+    width: 280px;
+}
+
+.section2 {
+    width: 250px;
+}
+
+.section3 {
+    width: 260px;
+}
+
+.section4 {
+    width: 220px;
+}
+
+.jeep {
+    background-image: url(../img/raeson-jeep.png);
+    width: 60px;
+    height: 37px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.discount {
+    background-image: url(../img/reason-discount.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+        margin: 0 auto;
+}
+
+.wallet {
+    background-image: url(../img/reason-wallet.png);
+    width: 40px;
+    height: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+        margin: 0 auto;
+}
+
+.security {
+    background-image: url(../img/reason-clock.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+        margin: 0 auto;
+}
+
+.main-reason {
+    color: #eccd0c;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.text-reason {
+    color: #c5c5c5;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/*how-use*/
+
+.how-use-menu {
+    width: 365px;
+}
+
+.video {
+    height: 285px;
+    width: 500px;
+    margin: 0 auto;
+    
+}
+
+/*show-benefits*/
+
+.menu-benefits {
+    width: 230px;
+}
+
+.main-benefits {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.section1-benefits {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 472px;
+/*    height: 500px;*/
+}
+
+.ride-back {
+    background-image: url(../img/how%20ride%20back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 310px;
+    width: 470px;
+    margin-top: 20px;
+}
+
+.accident {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.accident1 {
+    background-image: url(../img/accident1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 255px;
+    height: 145px;
+}
+
+.accident2 {
+    background-image: url(../img/accident2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 190px;
+    height: 145px;
+}
+
+.text-benefits {
+    text-align: center;
+    font-weight: bold;
+}
+
+.price-benefits {
+    color: #eed84a;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.comment-benefits {
+    margin-top: 5px;
+}
+
+
+
+
+.picture-present1 {
+    background-image: url(../img/registrator%20with%20present.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 410px;
+    height: 162px;
+    margin-top: 60px;
+}
+
+.picture-present2 {
+    background-image: url(../img/registrator%20with%20present2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 260px;
+    width: 400px;
+}
+
+.button-ord3 {
+    margin: 55px auto;
+
+}
+
+/*reviews-section*/
+
+.reviews-section {
+    display: flex;
+    width: 1050px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.left-arrow,
+.right-arrow{
+    background-image: url(../img/right-arrow.png);
+    background-repeat: no-repeat;
+    height: 65px;
+    width: 35px;
+    margin-top: 70px;
+}
+
+.arrow-off1 {
+    display: none;
+}
+
+.arrow-inslider-off {
+    display: none;
+}
+
+.picture-example {
+    background-image: url(../img/views-picture.png);
+    background-size: 279px;
+    background-position-x: -10px;
+    background-position-y: -5px;
+    background-repeat: no-repeat;
+    width: 285px;
+    height: 215px;
+    border: 10px solid #ffdc00;
+}
+
+.slider-reviews {
+    width: 20px;
+    height: 20px;
+    background-color: #ffdc00;
+    border-radius: 50%;
+}
+
+.slider-chose {
+    border: 2px solid black;
+}
+
+.slider-all {
+    display: flex;
+    margin: 10px auto;
+    width: 85px;
+    justify-content: space-between;
+}
+
+.description-reviews {
+    width: 560px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+}
+
+.right-arrow {
+    background-image: url(../img/rigth-arrow1.png);
+}
+
+.comment {
+    background-image: url(../img/avatar.png);
+    background-repeat: no-repeat;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+}
+
+/*about-guarantee*/
+
+.menu-guarantee {
+    width: 260px;
+    
+}
+
+.sectio-guarantee {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.tittle-guarantee {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.list-guaratee {
+    margin-top: 20px;
+    margin-left: 18px;
+    line-height: 25px;
+    font-style: italic;
+    color: ;
+}
+
+.about-client {
+    margin-top: 20px;
+}
+
+.guarantee-picture {
+    display: flex;
+    width: 950px;
+    margin: 80px auto;
+    justify-content: space-between;
+}
+
+.size-text-guarantee {
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffe74f;
+}
+
+.picture-box,
+.picture-securty,
+.picture-coin {
+    background-image: url(../img/box.png);
+    background-repeat: no-repeat;
+    width: 65px;
+    height: 65px;
+    margin: 0 auto;
+}
+
+.picture-securty {
+    background-image: url(../img/security.png);
+}
+
+.picture-coin {
+    background-image: url(../img/coin.png);
+}
+
+.describe-order {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+.delivery {
+    font-weight: bold;
+}
+
+.list-order {
+    margin-top: 20px;
+    margin-left: 18px;
+    line-height: 30px;
+    font-style: italic;
+    color: gray;
+}
+
+/*order-now*/
+
+.menu-ordernow {
+    width: 620px;
+}
+
+.views-ordernow {
+    display: flex;
+    width: 885px;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+}
+
+.mirror-ordernow {
+    background-image: url(../img/mirror-order%20now.png);
+    background-repeat: no-repeat;
+    width: 330px;
+    height: 135px;
+}
+
+.ordernow-present {
+    display: flex;
+    width: 385px;
+    margin-top: 20px;
+}
+
+.present1 {
+    background-image: url(../img/registrator%20with%20present2.png);
+    background-repeat: no-repeat;
+    background-size: 230px;
+    height: 172px;
+    width: 225px;
+}
+
+.present2 {
+    background-image: url(../img/price.png);
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    height: 157px;
+    width: 157px;
+}
+
+.right-forms {
+    width: 444px;
+    text-align: center;
+}
+
+input {
+    width: 430px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: grey;
+    padding: 5px 0 5px 10px;
+}
+
+.forms1 {
+    margin-top: 10px;
+}
+
+.forms2 {
+     margin-top: 20px;
+}
+
+.clock-order {
+     margin: 30px auto;
+}
+
+.button-ord4 {
+    margin: 20px auto;
+}
+
+@media (max-width: 1060px) {
+    
+    .left-information {
+        display: none;
+    }
+    .content-price {
+        flex-wrap: wrap;
+        width: 800px;
+/*        width: 100%;*/
+        padding-top: 0;
+    }
+    .media-oof {
+        display: none;
+    }
+    .media-on {
+        display: block;
+        margin: 20px auto;
+    }
+    .price {
+        margin: 0 auto;
+    }
+    .section-clock {
+        margin: 0 auto;
+    }
+    .order-section{
+       text-align: center;
+    }
+    .text-present {
+        width: 540px;
+    }
+    .prescribe-row1 {
+        width: 26%;
+        height: 100%;
+/*        display: block;*/
+        flex-direction: column;
+    }
+    .prescribe1, 
+    .prescribe2, 
+    .prescribe3, 
+    .prescribe4, 
+    .prescribe5 {
+        text-align: left;
+        margin: 0;
+    }
+    .picture-prescribe1 {
+        margin: 0 auto;
+    }
+    .prescribe-row2 {
+        width: 26%;
+        height: 100%;
+/*        display: block;*/
+        flex-direction: column;
+    }
+    .picture-prescribe2 {
+        margin: 0 auto;
+    }
+    .prescribe-row3 {
+        width: 26%;
+        height: 100%;
+/*        display: block;*/
+        flex-direction: column;
+    }
+    .four-reason {
+        flex-direction: column;
+        width: 30%;
+    }
+    .main-benefits {
+        flex-direction: column;
+        width: 50%;
+    }
+    .section1,
+    .section2,
+    .section3,
+    .section4 {
+        width: 100%;
+    }
+    .reviews-section {
+        flex-direction: column;
+        width: 100%;
+    }
+    .section1-benefits,
+    .section2-benefits {
+/*        width: 47%;*/
+        margin: 0 auto;
+    }
+    .arrow-off {
+        display: none;
+    }
+    .left-arrow {
+        display: none;
+    }
+    .picture-all {
+        width: 27%;
+        margin: 0 auto;
+    }
+    .arrow-inslider-on {
+        display: block;
+        background-size: 10px;
+        height: 30px;
+        width: 15px;
+        margin: 0;
+    }
+    .slider-all {
+        width: 120px;
+    }
+    .description-reviews {
+        width: 20%;
+        margin: 0 auto;
+    }
+    .sectio-guarantee {
+       width: 19%; 
+    }
+    .guarantee-picture {
+       flex-direction: column;
+       width: 19%;
+    }
+    .guarantee-media1 {
+        margin-top: 20px;
+    }
+    .guarantee-media2 {
+        margin-top: 20px;
+    }
+    .describe-order {
+        flex-direction: column;
+        width: 25%;
+    }
+    .views-ordernow {
+       flex-direction: column;
+       width: 44%;
+    }
+    .input-main {
+        width: 350px;
+    }
+    .clock-order {
+        margin-top: 25px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
